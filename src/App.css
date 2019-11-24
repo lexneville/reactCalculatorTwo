@@ -1,22 +1,45 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
+@font-face{
+    font-family:'digital-7 (mono italic)';
+    src: url('./fonts/digital-7 (mono italic).ttf');
+   }
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#calc {
+    display: flex wrap;
+    width: 402px;
+    margin-top: 100px;
+    box-shadow: 20px 15px 20px rgba(58, 58, 58, 0.473);
+    border: solid rgb(110, 110, 110) 1px;
 }
 
-.App-link {
-  color: #09d3ac;
+#result {
+    background-color: rgb(118, 221, 123);
+    padding-right: 10px;
+    width: 400px;
+    height: 100px;
+    border: solid rgb(163, 163, 163) 1px;
+    font-family: "digital-7 (mono italic)";
+    font-size: 100px;
+    text-align: right;  
+}
+
+button {
+    width:100px;
+    height:100px;
+    font-size: 40px;
+    color:white;
+    text-shadow: 3px 2px 10px rgb(0, 0, 0);
+    border: solid rgb(161, 161, 161) 1px;
+    font-family: Arial, Helvetica, sans-serif
 }
