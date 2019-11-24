@@ -148,7 +148,7 @@ class App extends React.Component {
 
     return (
       <div id="app">
-        <h1>Simple Calculator by Jody Richadson</h1>
+        <h1>Simple Calculator by Jody Richardson</h1>
         <div id="calc">
           <ResultDisplay result={this.state.result} />
           <Keypad onClick={this.onClick} />
