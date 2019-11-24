@@ -16,7 +16,7 @@ class App extends React.Component {
     op: "",
     inputStage: "0",
   }
-
+//perform 
   calculate() {
 //define n1 and n2 for easy use in function
     const a = this.state.n1;
@@ -66,9 +66,9 @@ class App extends React.Component {
     })
     console.log(this.state);
   }
-
+  
+  //click event handler
   onClick = id => {
-//click event handler
     if (id === "=") {
       this.calculate();
       console.log(this.state);
@@ -141,13 +141,14 @@ class App extends React.Component {
     }
   }
 
-
+//display components
   render() {
     
     console.log(this.state);
 
     return (
       <div id="app">
+        <h1>Simple Calculator by Jody Richadson</h1>
         <div id="calc">
           <ResultDisplay result={this.state.result} />
           <Keypad onClick={this.onClick} />
