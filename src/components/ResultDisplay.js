@@ -8,7 +8,7 @@ class ResultDisplay extends Component {
         let { result,} = this.props;
         return (
             <div id="result">
-                <p>{result}</p>
+                <p id="displayDigits" >{result}</p>
             </div>
         )
     };
