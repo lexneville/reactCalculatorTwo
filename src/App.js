@@ -6,7 +6,6 @@ import ResultDisplay from './components/ResultDisplay';
 // Second iteration of a react calculator with basic functionality
 // programmed by Jody Richardson AKA Lex Neville
 
-
 class App extends React.Component {
 //set initial default state values
   state = {
@@ -16,12 +15,12 @@ class App extends React.Component {
     op: "",
     inputStage: "0",
   }
+
 //perform 
   calculate() {
 //define n1 and n2 for easy use in function
     const a = this.state.n1;
     const b = this.state.n2;
-
 
     if (this.state.op === "x") {
       return this.setState({
@@ -49,11 +48,9 @@ class App extends React.Component {
         result: a - b,
         n1: this.state.result,
         n2: ""
-      });
-      
+      });    
     }
     console.log(this.state); 
-
   }
 //reset state ready for new input
   reset = () => {
@@ -69,7 +66,7 @@ class App extends React.Component {
   
   //click event handler
   onClick = id => {
-    if (id === "=") {
+    if (id === "equals") {
       this.calculate();
       console.log(this.state);
     }

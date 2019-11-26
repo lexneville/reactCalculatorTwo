@@ -14,7 +14,7 @@ h1 {
     box-shadow: 20px 15px 20px rgba(58, 58, 58, 0.473);
     border: solid rgb(110, 110, 110) 1px;
     padding: 5px;
-    margin: 50px;
+    margin-top: 40px;
 }
 
 #app {
@@ -26,7 +26,7 @@ h1 {
 #calc {
     display: flex wrap;
     width: 402px;
-    margin-top: 100px;
+    margin-top: 40px;
     box-shadow: 20px 15px 20px rgba(58, 58, 58, 0.473);
     border: solid rgb(110, 110, 110) 1px;
     background-color: rgb(118, 221, 123);
@@ -34,7 +34,8 @@ h1 {
 
 #result {
     background-color: rgb(118, 221, 123);
-    padding-right: 10px;
+    padding-right: 10px; 
+    padding-top: 10px;
     width: 400px;
     height: 100px;
     border: solid rgb(163, 163, 163) 1px;
@@ -50,18 +51,23 @@ button {
     color:white;
     text-shadow: 3px 2px 10px rgb(0, 0, 0);
     border: solid rgb(161, 161, 161) 1px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+button:focus {outline:0;}
+
 
 #displayDigits {
     animation: blink 2s linear;
     animation-iteration-count: infinite 
 }
 
-
-
 @keyframes blink {
 	0% { opacity: 1; }
 	98% { opacity: 1; }
 	100% { opacity: 0; }
+}
+
+#equals {
+    
 }
