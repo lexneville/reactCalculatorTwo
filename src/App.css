@@ -56,6 +56,12 @@ button {
 
 button:focus {outline:0;}
 
+#equals, #clear, #division {
+    width: 200px;
+}
+
+
+
 
 #displayDigits {
     animation: blink 2s linear;
