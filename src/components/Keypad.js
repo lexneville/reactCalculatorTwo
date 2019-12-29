@@ -7,22 +7,22 @@ class Keypad extends Component {
 
         return (
             <div id="keypadButtons" >
-                <button id="clear" onClick={(e) => this.props.onClick(e.target.id)}>C</button>
+                <button id="C" onClick={(e) => this.props.onClick(e.target.id)}>C</button>
                 <button id="division" className="op" onClick={(e) => this.props.onClick(e.target.id)}>÷</button>
-                <button id="seven" onClick={(e) => this.props.onClick(e.target.id)}>7</button>
-                <button id="eight" onClick={(e) => this.props.onClick(e.target.id)}>8</button>
-                <button id="nine" onClick={(e) => this.props.onClick(e.target.id)}>9</button>
-                <button id="minus" className="op" onClick={(e) => this.props.onClick(e.target.id)}>-</button>
-                <button id="four" onClick={(e) => this.props.onClick(e.target.id)}>4</button>                
-                <button id="five" onClick={(e) => this.props.onClick(e.target.id)}>5</button>
-                <button id="six" onClick={(e) => this.props.onClick(e.target.id)}>6</button>
-                <button id="multiply" className="op" onClick={(e) => this.props.onClick(e.target.id)}>x</button>
-                <button id="one" onClick={(e) => this.props.onClick(e.target.id)}>1</button>
-                <button id="two" onClick={(e) => this.props.onClick(e.target.id)}>2</button>
-                <button id="three" onClick={(e) => this.props.onClick(e.target.id)}>3</button>
-                <button id="plus" className="op" onClick={(e) => this.props.onClick(e.target.id)}>+</button>
-                <button id="decimal" onClick={(e) => this.props.onClick(e.target.id)}>.</button>
-                <button id="zero" onClick={(e) => this.props.onClick(e.target.id)}>0</button>
+                <button id="7" onClick={(e) => this.props.onClick(e.target.id)}>7</button>
+                <button id="8" onClick={(e) => this.props.onClick(e.target.id)}>8</button>
+                <button id="9" onClick={(e) => this.props.onClick(e.target.id)}>9</button>
+                <button id="-" className="op" onClick={(e) => this.props.onClick(e.target.id)}>-</button>
+                <button id="4" onClick={(e) => this.props.onClick(e.target.id)}>4</button>                
+                <button id="5" onClick={(e) => this.props.onClick(e.target.id)}>5</button>
+                <button id="6" onClick={(e) => this.props.onClick(e.target.id)}>6</button>
+                <button id="x" className="op" onClick={(e) => this.props.onClick(e.target.id)}>x</button>
+                <button id="1" onClick={(e) => this.props.onClick(e.target.id)}>1</button>
+                <button id="2" onClick={(e) => this.props.onClick(e.target.id)}>2</button>
+                <button id="3" onClick={(e) => this.props.onClick(e.target.id)}>3</button>
+                <button id="+" className="op" onClick={(e) => this.props.onClick(e.target.id)}>+</button>
+                <button id="." onClick={(e) => this.props.onClick(e.target.id)}>.</button>
+                <button id="0" onClick={(e) => this.props.onClick(e.target.id)}>0</button>
                 <button id="equals" className="op" onClick={(e) => this.props.onClick(e.target.id)}>=</button>
             </div>
         )

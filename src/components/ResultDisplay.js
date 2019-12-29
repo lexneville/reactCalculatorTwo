@@ -5,7 +5,7 @@ class ResultDisplay extends Component {
 //Calculator display component
 
     render() {
-        let { result,} = this.props;
+        let { result } = this.props;
         return (
             <div id="result">
                 <p id="displayDigits" >{result}</p>

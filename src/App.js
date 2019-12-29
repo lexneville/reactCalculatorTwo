@@ -94,7 +94,7 @@ class App extends React.Component {
       console.log(this.state);
     }
 
-    else if (id === "/") {
+    else if (id === "division") {
       this.setState({
         op: "/",
         inputStage: "n2",
